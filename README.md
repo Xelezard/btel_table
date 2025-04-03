@@ -19,7 +19,7 @@ table init "row" "row2" "row3"
 ```
 **Row names must be in quotes!**
 
-To add date to your table run:
+To add data to your table run:
 ```
 table update "field" "field2" "field3" 
 ```
@@ -30,3 +30,10 @@ Currently the table is a mess to remove quotes and format everything use:
 table finalize
 ```
 **From now on the table will not recognise your table, so only do this when you are finished!**
+
+Note: for every command you can also use the short version
+```
+table init -> table i
+table update -> table u
+table finalize -> table f
+```
