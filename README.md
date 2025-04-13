@@ -3,7 +3,11 @@
 A Plugin that let's you easily create tables with the btel text editor.
 
 ## Installation
-To install add this to your config.tr:
+To install run this command:
+```
+cargo install --git https://github.com/Xelezard/btel_table
+```
+and add this to your config.tr:
 ```
 commands -> alt text
 | t or table -> /path/to/the/executable
